@@ -1,0 +1,15 @@
+name: LoginCommand
+version: 1.0.0
+main: com.sceasty.logincommand.LoginCommand
+api-version: 1.19
+author: sceasty
+description: Plugin that runs automatic commands when players join
+commands:
+  logincommand:
+    description: LoginCommand plugin commands
+    aliases: [lc]
+    permission: logincommand.admin
+permissions:
+  logincommand.admin:
+    description: LoginCommand admin permission
+    default: op

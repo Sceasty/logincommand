@@ -1,0 +1,29 @@
+# LoginCommand Messages
+
+# General messages
+no-permission: "&cYou don't have permission to use this command!"
+plugin-reloaded: "&aConfig and messages successfully reloaded!"
+invalid-delay: "&cInvalid delay value!"
+
+# Command adding
+command-added: "&aCommand successfully added!"
+first-command-added: "&aFirst time command successfully added!"
+command-details: "&7Command: {command} | Type: {type} | Delay: {delay}s"
+
+# Command removing
+command-removed: "&aCommand successfully removed!"
+first-command-removed: "&aFirst time command successfully removed!"
+command-not-found: "&cNo command found with this name!"
+first-command-not-found: "&cNo first time command found with this name!"
+
+# Listing
+no-commands: "&eNo commands added yet!"
+no-first-commands: "&eNo first time commands added yet!"
+commands-header: "&a=== Login Commands ==="
+first-commands-header: "&a=== First Time Commands ==="
+command-list-item: "&e{index}. &f{command}"
+command-list-details: "&7   Type: {type} | Delay: {delay}s"
+
+# Player data
+players-reset: "&aAll player data has been reset! Everyone will be considered as first time joiners."
+player-count: "&7Total registered players: {count}"

@@ -1,0 +1,42 @@
+# LoginCommand Plugin Config
+
+# Settings
+settings:
+  commands-enabled: true
+  first-commands-enabled: false
+  language: "en"  # en = English, tr = Turkish
+
+# Normal commands - Runs every login (if commands-enabled: true)
+# Player = {player}
+commands:
+  welcome:
+    command: "say {player} welcome to server!"
+    console: true
+    delay: 2
+  
+  give_starter_items:
+    command: "give {player} diamond_sword 1"
+    console: true
+    delay: 5
+  
+  player_command_example:
+    command: "spawn"
+    console: false
+    delay: 1
+
+# First time commands - Runs only on first join (if first-commands-enabled: true)
+first-time-commands:
+  first_welcome:
+    command: "say {player} welcome to server for the first time! Special gifts for you!"
+    console: true
+    delay: 1
+  
+  first_time_rewards:
+    command: "give {player} diamond 10"
+    console: true
+    delay: 3
+  
+  first_time_teleport:
+    command: "spawn"
+    console: false
+    delay: 5
